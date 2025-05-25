@@ -1,0 +1,7 @@
+<template>
+    <lightning-card title="List of Cars" icon-name="custom:custom14">
+        <template for:each={cars} for:item="car">
+            <li key={car.id}>{car.name}</li>
+        </template>
+    </lightning-card>
+</template>
